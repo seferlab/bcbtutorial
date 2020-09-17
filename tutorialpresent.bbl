@@ -1,0 +1,380 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{tadbit}{article}{}
+\endentry
+
+\entry{dixon2012}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Dixon}{D.}%
+     {Jesse~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Selvaraj}{S.}%
+     {Siddarth}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yue}{Y.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Audrey}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Yan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shen}{S.}%
+     {Yin}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Ming}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Jun~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ren}{R.}%
+     {Bing}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJR+1}
+  \strng{fullhash}{DJRSSYFKALYSYHMLJSRB1}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  The spatial organization of the genome is intimately linked to its biological
+  function, yet our understanding of higher order genomic structure is coarse,
+  fragmented and incomplete. In the nucleus of eukaryotic cells, interphase
+  chromosomes occupy distinct chromosome territories, and numerous models have
+  been proposed for how chromosomes fold within chromosome territories. These
+  models, however, provide only few mechanistic details about the relationship
+  between higher order chromatin structure and genome function. Recent advances
+  in genomic technologies have led to rapid advances in the study of
+  three-dimensional genome organization. In particular, Hi-C has been
+  introduced as a method for identifying higher order chromatin interactions
+  genome wide. Here we investigate the three-dimensional organization of the
+  human and mouse genomes in embryonic stem cells and terminally differentiated
+  cell types at unprecedented resolution. We identify large, megabase-sized
+  local chromatin interaction domains, which we term /`topological domains/',
+  as a pervasive structural feature of the genome organization. These domains
+  correlate with regions of the genome that constrain the spread of
+  heterochromatin. The domains are stable across different cell types and
+  highly conserved across species, indicating that topological domains are an
+  inherent property of mammalian genomes. Finally, we find that the boundaries
+  of topological domains are enriched for the insulator binding protein CTCF,
+  housekeeping genes, transfer RNAs and short interspersed element (SINE)
+  retrotransposons, indicating that these factors may have a role in
+  establishing the topological domain structure of the genome.%
+  }
+  \verb{doi}
+  \verb 10.1038/nature11082
+  \endverb
+  \field{number}{7398}
+  \field{pages}{376\bibrangedash 380}
+  \field{title}{{Topological Domains in Mammalian Genomes Identified by
+  Analysis of Chromatin Interactions}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/nature11082
+  \endverb
+  \field{volume}{485}
+  \field{journaltitle}{Nature}
+  \field{year}{2012}
+\endentry
+
+\entry{levy2014}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {L{\'e}vy-Leduc}{L.-L.}%
+     {Celine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Delattre}{D.}%
+     {Maud}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mary-Huard}{M.-H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robin}{R.}%
+     {Stephane}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford Univ Press}%
+  }
+  \strng{namehash}{LLC+1}
+  \strng{fullhash}{LLCDMMHTRS1}
+  \field{sortinit}{L}
+  \field{number}{17}
+  \field{pages}{i386\bibrangedash i392}
+  \field{title}{Two-dimensional segmentation for analyzing Hi-C data}
+  \field{volume}{30}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2014}
+\endentry
+
+\entry{aiden}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Lieberman-Aiden}{L.-A.}%
+     {Erez}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berkum}{B.}%
+     {Nynke~L}{N.~L.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Louise}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Imakaev}{I.}%
+     {Maxim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ragoczy}{R.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Telling}{T.}%
+     {Agnes}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amit}{A.}%
+     {Ido}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lajoie}{L.}%
+     {Bryan~R}{B.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sabo}{S.}%
+     {Peter~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dorschner}{D.}%
+     {Michael~O}{M.~O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{LAE+1}
+  \strng{fullhash}{LAEBNLvWLIMRTTAAILBRSPJDMO+1}
+  \field{sortinit}{L}
+  \field{number}{5950}
+  \field{pages}{289\bibrangedash 293}
+  \field{title}{Comprehensive mapping of long-range interactions reveals
+  folding principles of the human genome}
+  \field{volume}{326}
+  \field{journaltitle}{science}
+  \field{year}{2009}
+\endentry
+
+\entry{rao2014}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Rao}{R.}%
+     {Suhas~SP}{S.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huntley}{H.}%
+     {Miriam~H}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Durand}{D.}%
+     {Neva~C}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stamenova}{S.}%
+     {Elena~K}{E.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bochkov}{B.}%
+     {Ivan~D}{I.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robinson}{R.}%
+     {James~T}{J.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanborn}{S.}%
+     {Adrian~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Machol}{M.}%
+     {Ido}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Omer}{O.}%
+     {Arina~D}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lander}{L.}%
+     {Eric~S}{E.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{RSS+1}
+  \strng{fullhash}{RSSHMHDNCSEKBIDRJTSALMIOADLES+1}
+  \field{sortinit}{R}
+  \field{number}{7}
+  \field{pages}{1665\bibrangedash 1680}
+  \field{title}{A 3D map of the human genome at kilobase resolution reveals
+  principles of chromatin looping}
+  \field{volume}{159}
+  \field{journaltitle}{Cell}
+  \field{year}{2014}
+\endentry
+
+\entry{decon2015}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Sefer}{S.}%
+     {Emre}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Duggal}{D.}%
+     {Geet}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kingsford}{K.}%
+     {Carl}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SEDGKC1}
+  \strng{fullhash}{SEDGKC1}
+  \field{sortinit}{S}
+  \field{series}{RECOMB'15}
+  \field{title}{{Deconvolution Of Ensemble Chromatin Interaction Data Reveals
+  The Latent Mixing Structures In Cell Subpopulations}}
+\endentry
+
+\entry{sexton2012}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Sexton}{S.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yaffe}{Y.}%
+     {Eitan}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kenigsberg}{K.}%
+     {Ephraim}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bantignies}{B.}%
+     {Fr{\'e}d{\'e}ric}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leblanc}{L.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoichman}{H.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parrinello}{P.}%
+     {Hugues}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanay}{T.}%
+     {Amos}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cavalli}{C.}%
+     {Giacomo}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{ST+1}
+  \strng{fullhash}{STYEKEBFLBHMPHTACG1}
+  \field{sortinit}{S}
+  \field{number}{3}
+  \field{pages}{458\bibrangedash 472}
+  \field{title}{Three-dimensional folding and functional organization
+  principles of the Drosophila genome}
+  \field{volume}{148}
+  \field{journaltitle}{Cell}
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
